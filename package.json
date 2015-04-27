@@ -4,7 +4,8 @@
   "description": "A Karma plugin. Adapter for RequireJS framework.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "postinstall": "grunt build"
   },
   "repository": {
     "type": "git",
